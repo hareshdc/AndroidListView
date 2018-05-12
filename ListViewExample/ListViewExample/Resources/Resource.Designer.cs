@@ -26,6 +26,7 @@ namespace ListViewExample
 		
 		public static void UpdateIdValues()
 		{
+			global::Droid.Resource.String.library_name = global::ListViewExample.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -69,6 +70,9 @@ namespace ListViewExample
 			// aapt resource value: 0x7f050001
 			public const int passwordEntry = 2131034113;
 			
+			// aapt resource value: 0x7f050004
+			public const int userList = 2131034116;
+			
 			// aapt resource value: 0x7f050000
 			public const int usernameEntry = 2131034112;
 			
@@ -91,6 +95,9 @@ namespace ListViewExample
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int ViewUsers = 2130903041;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -104,14 +111,17 @@ namespace ListViewExample
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int add_button = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int add_button = 2130968577;
+			public const int app_name = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			public const int library_name = 2130968576;
 			
-			// aapt resource value: 0x7f040002
-			public const int view_user_list = 2130968578;
+			// aapt resource value: 0x7f040003
+			public const int view_user_list = 2130968579;
 			
 			static String()
 			{
